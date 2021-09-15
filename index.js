@@ -25,10 +25,7 @@ class CountdownTimer{
         this.clearClockFace()
       }
       clearClockFace() {
-        daysToFinish.textContent = '00'
-        hoursToFinish.textContent = '00'
-        minsToFinish.textContent = '00'
-        secToFinish.textContent = '00'
+        document.getElementById("timer").innerHTML = "Hooray quarantine is over !!!";
       }
 
       toString(value, num, symbol) {
@@ -64,5 +61,6 @@ class CountdownTimer{
     selector: '#timer-1',
     targetDate: new Date('Nov 31, 2021'),
   });
+  
   myTimer.ohNo(myTimer.targetDate);
-  console.log(myTimer)
+  

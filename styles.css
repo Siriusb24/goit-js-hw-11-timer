@@ -2,8 +2,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .timer {
-    background: #222;
+    background: url(./img/covid.jpg) no-repeat;
+    background-size: 100%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -11,9 +13,16 @@ body {
     align-items: center;
 }
 .value {
-    color: #fff;
+    color: rgb(6, 189, 221);;
     font-size: 4rem;
 }
+
+#timer {
+    color: rgb(6, 189, 221);
+    font-size: 4rem;
+}
+
+
 .label {
     font-size: 2.5rem;
     padding-left: 0.25rem;
